@@ -2,7 +2,6 @@
 
 const chalk = require("chalk");
 const clear = require("clear");
-const figlet = require("figlet");
 const files = require("./lib/files");
 const prompt = require("./lib/prompt");
 const create = require("./lib/create");
@@ -11,7 +10,10 @@ clear();
 
 const runIntroduction = async () => {
 	clear();
-	console.log(chalk.blueBright.bold(`Framer Tools`));
+	console.log(
+		chalk.blueBright.bold(`
+Framer Tools`)
+	);
 	console.log(chalk.blue(`v0.0.2`));
 
 	if (files.getCurrentDirectoryBase() !== "container") {

@@ -1,6 +1,6 @@
 {
 	"name": "framer-tools",
-	"version": "0.0.2",
+	"version": "0.1.3",
 	"description": "Do good stuff fast in Framer X from the command line.",
 	"main": "index.js",
 	"scripts": {
@@ -17,21 +17,19 @@
 	"author": "@steveruizok",
 	"license": "ISC",
 	"bugs": {
-		"url": "https://github.com/steveruizok/framer-cli/issues"
+		"url": "https://github.com/steveruizok/framer-tools/issues"
 	},
-	"homepage": "https://github.com/steveruizok/framer-cli#readme",
+	"homepage": "https://github.com/steveruizok/framer-tools",
 	"dependencies": {
 		"@octokit/rest": "^15.12.0",
 		"chalk": "^2.4.1",
 		"clear": "^0.1.0",
 		"clui": "^0.3.6",
 		"configstore": "^4.0.0",
-		"figlet": "^1.2.0",
 		"inquirer": "^6.2.0",
 		"lodash": "^4.17.11",
 		"minimist": "^1.2.0",
 		"opn": "^5.4.0",
-		"simple-git": "^1.102.0",
 		"touch": "^3.1.0"
 	},
 	"bin": {
