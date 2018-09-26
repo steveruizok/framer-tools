@@ -2,20 +2,18 @@
 
 Do good stuff fast in Framer X from the command line.
 
-![screenshot](https://github.com/steveruizok/framer-tools/screenshot.png "Screenshot")
+![screenshot](/screenshot.png)
 
-# Install
+# Installation & Usage
 
 ```
 npm i -g framer-tools
 ```
 
-# Usage
-
 - Cd into your Framer X project's folder.
 - Run `framer-tools`
 
-# Usage (wtf? version)
+# Installation & Usage (human)
 
 If you're new to working in the terminal, here are some expanded instructions.
 
