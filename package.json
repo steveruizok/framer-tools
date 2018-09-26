@@ -1,7 +1,7 @@
 {
-	"name": "framer-cli",
-	"version": "1.0.1",
-	"description": "Create Framer X components from the command line.",
+	"name": "framer-tools",
+	"version": "0.0.2",
+	"description": "Do good stuff fast with Framer X from the command line.",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
@@ -35,6 +35,6 @@
 		"touch": "^3.1.0"
 	},
 	"bin": {
-		"create-framer-component": "./index.js"
+		"framer-tools": "./index.js"
 	}
 }

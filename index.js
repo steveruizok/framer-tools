@@ -11,18 +11,8 @@ clear();
 
 const runIntroduction = async () => {
 	clear();
-	console.log(
-		chalk.blue(
-			figlet.textSync("F", {
-				font: "trek",
-				horizontalLayout: "controlled smushing"
-			})
-		)
-	);
-	console.log(`
-Create Framer Component
-v0.1
-	`);
+	console.log(chalk.blueBright.bold(`Framer Tools`));
+	console.log(chalk.blue(`v0.0.2`));
 
 	if (files.getCurrentDirectoryBase() !== "container") {
 		console.log(
@@ -47,6 +37,9 @@ project's project folder (File > Show Proejct Folder).
 };
 
 const createNewComponent = async () => {
+	console.log(`
+> Create new component`);
+
 	const { componentName } = await prompt.askComponentName();
 	await create.createComponent(componentName);
 	console.log(
@@ -74,7 +67,7 @@ const getNextAction = async lastComponentName => {
 
 	console.log(
 		chalk.yellow(`
-Ciao! 👋
+👋  Ciao! 
 `)
 	);
 	process.exit();
