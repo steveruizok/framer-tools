@@ -2,6 +2,8 @@
 
 Do good stuff fast in Framer X from the command line.
 
+![screenshot](https://github.com/steveruizok/framer-tools/screenshot.png "Screenshot")
+
 # Install
 
 ```
