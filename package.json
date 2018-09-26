@@ -1,7 +1,7 @@
 {
 	"name": "framer-tools",
 	"version": "0.0.2",
-	"description": "Do good stuff fast with Framer X from the command line.",
+	"description": "Do good stuff fast in Framer X from the command line.",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
