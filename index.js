@@ -169,11 +169,12 @@ Setting ${conf.get("defaultConfig")} as new default config.
 };
 
 const run = async () => {
-	await setupConfig();
-	await setDefaultConfig();
-	await getFirstAction();
 	// await runIntroduction();
 	// await checkForFolder();
+	await setupConfig();
+	await setDefaultConfig();
+	// install npm packages
+	await getFirstAction();
 
 	// await selectConfig();
 	// let lastComponentName = await createNewComponent();
