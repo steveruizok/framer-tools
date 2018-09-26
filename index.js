@@ -14,7 +14,7 @@ const runIntroduction = async () => {
 		chalk.blueBright.bold(`
 Framer Tools`)
 	);
-	console.log(chalk.blue(`v0.0.2`));
+	console.log(chalk.blue(`v0.1.4`));
 
 	if (files.getCurrentDirectoryBase() !== "container") {
 		console.log(
