@@ -4,38 +4,38 @@ module.exports = function (t, a, d) {
 	var called = 0;
 	var fn = t(function () {
 		++called;
-	}, 100);
+	}, 200);
 
 	fn();
 	a(called, 1);
 	fn();
 	fn();
 	a(called, 1);
-	// Wait 60ms
+	// Wait 120ms
 	setTimeout(function () {
 		a(called, 1);
 		fn();
-		// Wait 60ms
+		// Wait 120ms
 		setTimeout(function () {
 			a(called, 2);
 			fn();
 			fn();
 
-			// Wait 40ms
+			// Wait 80ms
 			setTimeout(function () {
 				a(called, 2);
 
-				// Wait 60ms
+				// Wait 120ms
 				setTimeout(function () {
 					a(called, 3);
 
-					// Wait 200ms
+					// Wait 400ms
 					setTimeout(function () {
 						a(called, 3);
 						d();
-					}, 200);
-				}, 60);
-			}, 40);
-		}, 60);
-	}, 60);
+					}, 400);
+				}, 120);
+			}, 80);
+		}, 120);
+	}, 120);
 };

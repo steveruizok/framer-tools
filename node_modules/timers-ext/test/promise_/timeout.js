@@ -8,9 +8,7 @@ module.exports = function (t, a) {
 		Success: function (d) {
 			var promise = t.call(
 				new Promise(function (resolve) {
-					setTimeout(function () {
-						resolve("foo");
-					}, 20);
+					setTimeout(function () { resolve("foo"); }, 20);
 				}),
 				40
 			);
@@ -27,9 +25,7 @@ module.exports = function (t, a) {
 		Timeout: function (d) {
 			var promise = t.call(
 				new Promise(function (resolve) {
-					setTimeout(function () {
-						resolve("foo");
-					}, 40);
+					setTimeout(function () { resolve("foo"); }, 40);
 				}),
 				20
 			);
